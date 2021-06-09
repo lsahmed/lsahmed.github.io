@@ -44,3 +44,9 @@ p {
 	color: #888;
 	padding: 15px;
 }
+
+.par{
+    letter-spacing: 2vh;
+    margin-top: 20px;
+    font-size: 40px;
+}
