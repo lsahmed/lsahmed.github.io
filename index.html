@@ -24,7 +24,7 @@
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <a href="" class="mr-5 hover:text-gray-900">Home</a>
-            <a href="./Downloads/index.html" class="mr-5 hover:text-yellow-900">SourceCode</a>
+            <a href="./Downloads/index.html" class="mr-5 hover:text-yellow-9000">SourceCode</a>
             <a href="#section" class="mr-5 hover:text-blue-900">Log In</a>
             <a href="./contact/index.html" class="mr-5 hover:text-yellow-900">ContactUs</a>
           </nav>
@@ -56,128 +56,26 @@
 
 <div class="main" id="section">
 
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <title>LOG IN</title>
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    
-  <style>
-  
-    *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Josefin Sans', sans-serif;
-    }
-  
-    .main_div{
-      width: 100%;
-      height: 100vh;
-      position: relative;
-    }
-  
-    .box{
-      width: 400px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 50px;
-      background: rgba(0,0,0,0.8);
-      border-radius: 10px;
-    }
-  
-  .box h1{
-  margin-bottom: 30px;
-  color: #fff;
-  text-align: center;
-  text-transform: capitalize;
-  }
-  
-  .box .inputbox{
-  position: relative;
-  }
-  
-  .box .inputbox input{
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-  }
-  
-  .box .inputbox label{
-    position: absolute;
-    left: 0;
-    top: 0;
-    letter-spacing: 1px;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    transition: 0.5s;
-  }
-  
-  
-  .box .inputbox input:focus ~ label{
-    top: -20px;
-    left: 0;
-    color: #03a9f4;
-    font-size: 12px;
-  }
-  
-  .box .inputbox input:valid ~ label{
-    top: -20px;
-    left: 0;
-    color: #03a9f4;
-    font-size: 12px;
-  }
-  
-  
-  .box input[type="submit"]{
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #03a9f4;
-    padding: 8px 16px;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-  
-  </style>
-  
-  </head>
-  <body>
-    
-    <div class="main_div">
-      <div class="box">
-      <h1>LOGIN FORM</h1>
-      <form method="" action="">
-        <div class="inputbox">
-           <input type="username" name="username" autocomplete="off" required>
-           <label> username </label>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+      <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+        <h1 class="title-font font-medium text-3xl text-gray-900">Sign up in my website to get new uptades</h1>
+        <p class="leading-relaxed mt-4">After sign up You Need to Buy Membership some free some paid your choice.</p>
+      </div>
+      <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+        <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
+        <div class="relative mb-4">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+          <input type="text" id="full-name" name="full-name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
         </div>
-  
-        <div class="inputbox">
-          <input type="password" name="password" autocomplete="off" required>
-          <label> password </label>
-         </div>
-         <input type="submit" name="" value="login">
-      </form>
+        <div class="relative mb-4">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+          <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">SingUp</button>
+        <p class="text-xs text-gray-500 mt-3">sign up is easy sign up and get start.</p>
       </div>
     </div>
-  </body>
-  </html>
+  </section>
 
 </div>
