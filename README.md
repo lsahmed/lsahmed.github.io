@@ -9,8 +9,8 @@ https://g.co/kgs/UvRS3N
 ![let-us-c-authentic-guide-to-c-programming-language-17th-edition-original-imafy7gnctuggpgv](https://user-images.githubusercontent.com/85559104/140607572-18952b89-769e-4af2-859a-4d512e1199a2.jpeg)
 
 
-Book
+Book: 
 Let Us C: Authentic Guide To C PROGRAMMING Language
 
-Author
+Author: 
 Yashavant Kanetkar
