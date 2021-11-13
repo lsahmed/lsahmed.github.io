@@ -7,6 +7,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+::selection{
+    color: blueviolet;
+}
+
 html{
     scroll-behavior: smooth;
 }
