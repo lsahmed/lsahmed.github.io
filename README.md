@@ -1,5 +1,5 @@
 # mwacode7.github.io
-hi guys i am mwa code and this my github id 
+👋 hi guys i am mwa code and this my github id 
 
 I am an web developer for now, But i am trying to learn C.
 
