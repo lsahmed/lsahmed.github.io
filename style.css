@@ -9,7 +9,8 @@
 }
 
 ::selection{
-    color: blueviolet;
+    color: white;
+    background: crimson;
 }
 
 html{
