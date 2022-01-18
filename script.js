@@ -1,3 +1,5 @@
+alert('Welcome in this website')
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
