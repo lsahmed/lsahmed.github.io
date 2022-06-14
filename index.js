@@ -8,3 +8,5 @@ const toggleNavbar = () => {
 
 //  subscribe to thapa technical Channle plz link:https://www.youtube.com/thapatechnical
 mobile_nav.addEventListener("click", () => toggleNavbar());
+
+//end
